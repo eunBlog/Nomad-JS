@@ -1,0 +1,76 @@
+.hidden {
+  display: none;
+}
+
+.background2 {
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#todo-form {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  font-size: 15px;
+  color: whitesmoke;
+  opacity: 60%;
+}
+
+#todo-list {
+  /*white-space: nowrap;*/
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  font-size: 25px;
+  color: whitesmoke;
+  opacity: 60%;
+}
+
+#login-form {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+#greeting {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+#quote {
+  display: flex;
+  justify-content: center;
+}
+#weather {
+  font-size: 25px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
